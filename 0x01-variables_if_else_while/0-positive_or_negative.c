@@ -12,20 +12,19 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if ( n < 0 ) 
-	{
-	  /* if condition is true then print n is negative */
+	if( n < 0 ) 
+   {
+      /* if condition is true then print n is negative */
 		printf("%d is negative\n", n );
-	} 
-	if (n==0)  
-	{
-	  /* if condition is true  print n is zero*/
+   } 
+	else if(n==0)  
+   {
+      /* if condition is true  print n is zero*/
 		printf("%d is zero\n", n );
-	}								   }
-	if (n > 0)
-	{
-	/* if condition is false print n is positive*/
+   }
+    else
+	  /* if condition is false print n is positive*/
 		printf("%d is positive\n", n);
-	}
+	
 	return (0);
 }
