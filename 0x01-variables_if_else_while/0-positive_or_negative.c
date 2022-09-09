@@ -18,10 +18,10 @@ int main(void)
 		printf("%d is negative\n", n );
 	} 
 	else if (n==0)  
-	{
+	
 	  /* if condition is true  print n is zero*/
 		printf("%d is zero\n", n );
-	}								   }
+									   }
 	else
 	/* if condition is false print n is positive*/
 		printf("%d is positive\n", n);
