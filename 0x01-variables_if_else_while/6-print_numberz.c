@@ -18,7 +18,6 @@ int main(void)
 
 	for (k = 48; k <= 57; k++)
 	{
-		
 		putchar(k);
 	}
 		putchar('\n');
