@@ -11,25 +11,17 @@
 
 int main(void)
 {
-	    char num;
+	char num;
 
+	num = 'a';
 
-
-	       num = 'a';
-
-
-
-	          while (num <= 'z')
-			      {
-				              if (num != 'q' && num != 'e')
-						              {
-								                  putchar(num);
-
-
-
-										         }
-					              num++;
-						          }
-		      putchar('\n');
-		          return (0);
-			      }
+	while (num <= 'z')
+	{
+	if (num != 'q' && num != 'e')
+	{
+		putchar(num);
+	}
+	num++;
+       	putchar('\n');
+	return (0);
+}
