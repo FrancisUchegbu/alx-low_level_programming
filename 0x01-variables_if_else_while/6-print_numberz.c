@@ -14,37 +14,17 @@ int main(void)
 
 
 {
+	int k;
+
+	for (k = 48; k <= 57; k++)
+	{
+		
+		putchar(k);
+	}
+		putchar('\n');
 
 
-
-	   int k;
-
-
-
-
-
-
-	       for (k = 48; k <= 57; k++)
-
-
-
-		          {
-
-
-
-				         putchar(k);
-
-
-
-					    }
-
-
-
-	          putchar('\n');
-
-
-
-		     return (0);
+	return (0);
 
 
 
