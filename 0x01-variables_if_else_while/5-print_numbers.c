@@ -7,44 +7,19 @@
 
 
 int main(void)
-
-
-
 {
+	int r;
+
+	for (r = 0; r <= 9; r++)
+	{
+		printf("%d", r);
 
 
-
-	   int r;
-
-
+	}
+	printf("\n");
 
 
-
-
-
-
-
-	      for (r = 0; r <= 9; r++)
-
-
-
-		         {
-
-
-
-				        printf("%d", r);
-
-
-
-					   }
-
-
-
-	         printf("\n");
-
-
-
-		    return (0);
+	return (0);
 
 
 
