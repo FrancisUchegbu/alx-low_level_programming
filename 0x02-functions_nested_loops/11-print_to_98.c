@@ -4,7 +4,8 @@
 * print_to_98 - print all the numbers between the provided number and 98
 * @n: integer to start at
 * Return: Void.
-*/
+ */
+
 void print_to_98(int n)
 {
 	int i = 0;
