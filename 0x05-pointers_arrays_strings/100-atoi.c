@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+* _atoi - int 
 * @s: pointer
 * Return: int.
 */
@@ -10,6 +11,7 @@ int _atoi(char *s)
 	int i;
 	int res = 0;
 	int sig = -1;
+	int brk = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
@@ -26,5 +28,4 @@ int _atoi(char *s)
 	}
 	res = sig * res;
 	return (res);
-}
-	
+}	
