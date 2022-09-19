@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_atoi - int 
+* _atoi - int
 * @s: pointer
 * Return: int.
 */
@@ -27,4 +27,4 @@ int _atoi(char *s)
 	}
 	res = sig * res;
 	return (res);
-}	
+}
