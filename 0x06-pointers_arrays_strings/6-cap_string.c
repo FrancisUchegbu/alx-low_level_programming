@@ -4,7 +4,7 @@
 /**
 * cap_string - this is awesome
 * @s: pointer to char params
-* Return: *
+* Return: *s
 */
 
 char *cap_string(char *s)
@@ -21,4 +21,4 @@ char *cap_string(char *s)
 				s[i + 1] = s[i + 1] - 32;
 	}
 	return (s);
-}				
+}
