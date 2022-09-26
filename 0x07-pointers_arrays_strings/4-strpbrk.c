@@ -2,17 +2,23 @@
 
 /**
 * _strpbrk - searches a string for any of a set of bytes.
-* @dest: destination memory area.
-* @src: source memory area.
-* @n: bytes filled.
-* Return: the pointer to dest.
+* @s: first string.
+* @accept: second string.
+* Return: a pointer to the byte in s that matches one of the
+* bytes in accept, or NULL if no such byte is found.
 */
 
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_strpbrk(char *s, char *accept)
 {
-	unsigned int i;
+	unsigned int i, j;
 
-	for (i = 0; i < n; i++)
-		*(dest + i) =  *(src + i);
-	return (dest);
+	for (i = 0; *(s + i) != '\0'; i++)
+	{
+		for (j = 0; *(accept + j) != '\0'; j++)
+		{
+			if (*(s + i) == *(accept + j))
+				return (s + i);
+		}
+	}
+	return ('\0');
 }
