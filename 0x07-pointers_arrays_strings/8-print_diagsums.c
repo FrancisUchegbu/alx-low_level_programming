@@ -6,7 +6,7 @@
 * of a square matrix of integers
 * @a: the 2D array or square matrix
 * @size: the size of the square matrix
-* Return: nothing.
+* Return: nothing
 */
 
 void print_diagsums(int *a, int size)
