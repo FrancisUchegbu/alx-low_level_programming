@@ -23,15 +23,10 @@ char *_strstr(char *haystack, char *needle)
 		{
 			haystack++;
 			pneedle++;
-
-			while (*haystack != '\0' && *pneedle != '\0' && *haystack == *pneedle)
-			{
-				haystack++;
-				pneedle++;
-			}
-			if (!*pneedle)
-				return (bhaystack);
-			haystack = bhaystack + 1;
 		}
+		if (!*pneedle)
+			return (bhaystack);
+		haystack = bhaystack + 1;
+	}
 	return (0);
-	}	
+}
