@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
-* main - check the code
-* Return: Always 0.
+* show_first - executes before the main function
+* Return: nothing
 */
-int main(void)
+void startup(void)
 {
 	char *str;
 
