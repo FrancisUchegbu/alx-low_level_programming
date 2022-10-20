@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
-* show_first - executes before the main function
-* Return: nothing
+* main - check the code
+* Return: Always 0.
 */
 void startup(void)
 {
