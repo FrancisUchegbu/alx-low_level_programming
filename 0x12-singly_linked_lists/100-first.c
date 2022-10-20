@@ -1,13 +1,12 @@
-#include "lists.h"
+#include <stdio.h>
 
 /**
-* show_first - executes before the main function
-* Return: nothing
+* beforeMain - Runs before the main fucntion
 */
-void startup(void)
-{
-	char *str;
 
-	str = "You're beat! and yet, you must allow,\nI bore my house upon my back!\n";
-	printf("%s", str);
+void __attribute__((constructor)) beforeMain()
+{
+	printf("You're beat! and yet, you must allow,\n%s",
+
+	"I bore my house upon my back!\n");
 }
