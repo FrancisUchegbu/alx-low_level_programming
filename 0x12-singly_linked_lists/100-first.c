@@ -4,7 +4,7 @@
 * main - check the code
 * Return: Always 0.
 */
-void startup(void)
+int main(void)
 {
 	char *str;
 
